@@ -1,0 +1,42 @@
+  subbranch
+PS D:\learn\git and github\github practice\dummy> git add .
+PS D:\learn\git and github\github practice\dummy> git commit -m ""
+PS D:\learn\git and github\github practice\dummy> git commit -m "texts added to other commads"
+[subbranch2 85bf65c] texts added to other commads
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   78953c0..85bf65c  subbranch2 -> subbranch2
+PS D:\learn\git and github\github practice\dummy> git checkout main
+Switched to branch 'main'
+PS D:\learn\git and github\github practice\dummy> git add .
+PS D:\learn\git and github\github practice\dummy> git btanch
+git: 'btanch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+PS D:\learn\git and github\github practice\dummy> git branch
+  main
+  subbranch
+* subbranch2
+PS D:\learn\git and github\github practice\dummy> git commit -m "added"
+[subbranch2 b8a2ac8] added
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS D:\learn\git and github\github practice\dummy> git push origin to main
+error: src refspec to does not match any
+error: failed to push some refs to 'https://github.com/ashokkumar06041998/dummy.git'
+PS D:\learn\git and github\github practice\dummy> git push origin subbranch2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ashokkumar06041998/dummy.git
+   85bf65c..b8a2ac8  subbranch2 -> subbranch2
+PS D:\learn\git and github\github practice\dummy> 
