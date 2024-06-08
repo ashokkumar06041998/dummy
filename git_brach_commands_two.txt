@@ -1,0 +1,13 @@
+Other Commands:
+
+command : "git pull"
+Note:this commands pulls the chnages from git repostiroy ,
+        if change anything from github repo,this command will pull that to your system.
+        for example you are creating folder or file in github repo , it will not added in your local machine 
+        until you use git pull.
+
+
+command : "git branch -M  branchname"
+Note:this command used to change branch of the git repository.
+                "master" and "main" both same.
+                
