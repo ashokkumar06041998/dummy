@@ -3,18 +3,29 @@ Step 1 :To initialize github in terminal " git init"
             Note: git init will initialize the github in local machine and creates a folder for github,
             if you didn't login before it will ask you login into you github account to initialize.
             this, command creates ".git" sub directory to store all files ,this foler works as intermidiate 
-            from your machine to github repository.when you create/modify an file it shows U as not added
-            then you you need to use add command to stage the changes
+            from your machine to github repository.
+            when you create an file it shows U as not added,when modify an file it shows M as not added
+            then  you need to use add command to stage the changes
             
 
 Step 2 :To Add file in github "git add filename.format"  or "git add ."
-            this command stages changes of the files or a specific file.
+
+            Note: this command stages changes of the files or a specific file.
             for example if you have created/modified some files you need to use 
             this command to stage(preparing changes) the modified files.this command does it.
             To add multiple files that you craeted/modified use,
             "git add ."
 
 
-Step 3 :To Commit the Changes "git commit -m "write something about the file creation/modifies""
+Step 3 :To Commit the Changes "git commit -m "write something about the file creation/modifies" "
+
+            Note: you cannot run this command before running "git add",
+            this command tracks the files changes like created/modified/deleted.
+            and stores informations about who/when/where  created/modified/deleted. the files.
+            just like history. 
+
+
             
-Step 4 :To Push the Files to github Repositoty "git push origin main"
+Step 4 :To Push the Files to github Repositoty "git push origin main"    
+
+             Note: you cannot run this command before running "git commit",
