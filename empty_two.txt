@@ -1,0 +1,18 @@
+ empty.txt                     | 42 ++++++++++++++++++++++++++++++++++++++++++
+ other_git_functionalities.txt |  3 +--
+ 2 files changed, 43 insertions(+), 2 deletions(-)
+ create mode 100644 empty.txt
+PS D:\learn\git and github\github practice\dummy> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 535 bytes | 535.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ashokkumar06041998/dummy.git
+   6b07e7d..e926ce3  main -> main
+PS D:\learn\git and github\github practice\dummy> git switch subbranch2
+Switched to branch 'subbranch2'
+Your branch is up to date with 'origin/subbranch2'.
+PS D:\learn\git and github\github practice\dummy>    
