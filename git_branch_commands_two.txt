@@ -1,5 +1,12 @@
 Other Commands:
 
+Note : Branches concept in github allows developers to isolate their code from 
+           main source,that means incase off any issue in code willnot affect the main source.
+           when you create branch it will replicate the same code of your main code,but
+           you source code will be in main branch and you can use subbranches for development.
+           when all modification or creating ,adding extra code will be done in subranch then it will 
+           be moved to main branch(to main source code).
+
 command : "git pull"
 Note:this commands pulls the chnages from git repostiroy ,
         if change anything from github repo,this command will pull that to your system.
