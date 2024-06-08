@@ -19,6 +19,159 @@ git: 'btanch' is not a git command. See 'git --help'.
 
 The most similar command is
         branch
+
+        PS D:\learn\git and github\github practice\dummy> git branch
+  main
+* subbranch2
+PS D:\learn\git and github\github practice\dummy> git switch main
+Your branch is up to date with 'origin/main'.
+PS D:\learn\git and github\github practice\dummy> git branch
+* main
+  subbranch2
+Everything up-to-date
+PS D:\learn\git and github\github practice\dummy> git add .
+On branch main
+Your branch is up to date with 'origin/main'.
+PS D:\learn\git and github\github practice\dummy> git add .
+PS D:\learn\git and github\github practice\dummy> git commit -m "to main"
+Your branch is up to date with 'origin/subbranch2'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS D:\learn\git and github\github practice\dummy> git switch main
+Your branch is up to date with 'origin/main'.
+PS D:\learn\git and github\github practice\dummy> git pull origin main
+From https://github.com/ashokkumar06041998/dummy
+ * branch            main       -> FETCH_HEAD
+Auto-merging git_branch_commands.txt
+CONFLICT (add/add): Merge conflict in git_branch_commands.txt
+Automatic merge failed; fix conflicts and then commit the result.
+* main
+  subbranch
+  subbranch2
+PS D:\learn\git and github\github practice\dummy> git switch subbranch2
+Switched to branch 'subbranch2'
+Your branch is up to date with 'origin/subbranch2'.
+PS D:\learn\git and github\github practice\dummy> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+PS D:\learn\git and github\github practice\dummy> git switch main
+Your branch is up to date with 'origin/main'.
+PS D:\learn\git and github\github practice\dummy> git add .
+PS D:\learn\git and github\github practice\dummy> git commit -m "file deleted and file modified"
+ 2 files changed, 46 insertions(+), 46 deletions(-)
+ delete mode 100644 git_branch_commands_two.txt
+PS D:\learn\git and github\github practice\dummy> git switch subbranch2
+Switched to branch 'subbranch2'
+Your branch is up to date with 'origin/subbranch2'.
+PS D:\learn\git and github\github practice\dummy> git branch
+  main
+  subbranch
+PS D:\learn\git and github\github practice\dummy> git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS D:\learn\git and github\github practice\dummy> git pull origin main
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS D:\learn\git and github\github practice\dummy> git merge subbranch2
+PS D:\learn\git and github\github practice\dummy> git push origin main
+Enumerating objects: 1, done.
+Writing objects: 100% (1/1), 225 bytes | 225.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ashokkumar06041998/dummy.git
+git: 'btanch' is not a git command. See 'git --help'.
+The most similar command is
+        branch
+* main
+  subbranch
+  subbranch2
+PS D:\learn\git and github\github practice\dummy> git checkout subbranch2
+Switched to branch 'subbranch2'
+Your branch is up to date with 'origin/subbranch2'.
+PS D:\learn\git and github\github practice\dummy> git branch
+  main
+  subbranch
+PS D:\learn\git and github\github practice\dummy> git add .
+PS D:\learn\git and github\github practice\dummy> git commit -m ""
+PS D:\learn\git and github\github practice\dummy> git commit -m "texts added to other commads"
+[subbranch2 85bf65c] texts added to other commads
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   78953c0..85bf65c  subbranch2 -> subbranch2
+PS D:\learn\git and github\github practice\dummy> git checkout main
+Switched to branch 'main'
+PS D:\learn\git and github\github practice\dummy> git add .
+PS D:\learn\git and github\github practice\dummy> git btanch
+git: 'btanch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+PS D:\learn\git and github\github practice\dummy> git branch
+  main
+  subbranch
+PS D:\learn\git and github\github practice\dummy> git commit -m "added"
+[subbranch2 b8a2ac8] added
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+error: failed to push some refs to 'https://github.com/ashokkumar06041998/dummy.git'
+PS D:\learn\git and github\github practice\dummy> git push origin subbranch2
+Enumerating objects: 5, done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ashokkumar06041998/dummy.git
+   85bf65c..b8a2ac8  subbranch2 -> subbranch2
+PS D:\learn\git and github\github practice\dummy> git branch
+  main
+* subbranch2
+PS D:\learn\git and github\github practice\dummy> git add empty.txt
+PS D:\learn\git and github\github practice\dummy> git commit -m "empty.txt" 
+ 1 file changed, 42 insertions(+)
+ create mode 100644 empty.txt
+PS D:\learn\git and github\github practice\dummy> git push origin subbranch2 
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ashokkumar06041998/dummy.git
+   b8a2ac8..a4dac9b  subbranch2 -> subbranch2
+PS D:\learn\git and github\github practice\dummy> git switch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+PS D:\learn\git and github\github practice\dummy> git pull origin main
+From https://github.com/ashokkumar06041998/dummy
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS D:\learn\git and github\github practice\dummy> git branch 
+* main
+  subbranch
+PS D:\learn\git and github\github practice\dummy> git merge subbranch2
+Merge made by the 'ort' strategy.
+ empty.txt                     | 42 ++++++++++++++++++++++++++++++++++++++++++
+ other_git_functionalities.txt |  3 +--
+ 2 files changed, 43 insertions(+), 2 deletions(-)
+ create mode 100644 empty.txt
+PS D:\learn\git and github\github practice\dummy> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 535 bytes | 535.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ashokkumar06041998/dummy.git
+   6b07e7d..e926ce3  main -> main
+PS D:\learn\git and github\github practice\dummy> git switch subbranch2
+Switched to branch 'subbranch2'
+Your branch is up to date with 'origin/subbranch2'.
+PS D:\learn\git and github\github practice\dummy>    
 PS D:\learn\git and github\github practice\dummy> git branch
   main
   subbranch
