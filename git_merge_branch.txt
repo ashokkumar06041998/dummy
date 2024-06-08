@@ -1,0 +1,3 @@
+these commands are used to merge branches,
+when you complete you modification with subbranch then 
+you need to add the modified code /created file or to main from subbranches.
