@@ -9,7 +9,7 @@ Example :
 
     step2: 
      command : " git add ." 
-     output : U or M letters will remove from file corner.
+     output : U or M letters will be removed from file corner.
 
     step3:
      command : "  git commit -m "git_merge_branch.txt was modified" " 
