@@ -4,7 +4,8 @@ Step 1 :To initialize github in terminal " git init"
             if you didn't login before it will ask you login into you github account to initialize.
             this, command creates ".git" sub directory to store all files ,this foler works as intermidiate 
             from your machine to github repository.
-            when you create an file it shows U as not added,when modify an file it shows M as not added
+            when you create an file it shows U(unmodified file/new file) as not added,
+            when modify an file it shows M(modified file) as not added
             then  you need to use add command to stage the changes
             
 
@@ -29,3 +30,10 @@ Step 3 :To Commit the Changes "git commit -m "write something about the file cre
 Step 4 :To Push the Files to github Repositoty "git push origin main"    
 
              Note: you cannot run this command before running "git commit",
+
+
+other:"git pull"
+Note:this commands pulls the changes from git repostiroy ,
+        if change anything from github repo,this command will pull that to your system.
+        for example you are creating folder or file in github repo , it will not added in your local machine 
+        until you use git pull.

@@ -7,7 +7,33 @@ Note:this commands pulls the chnages from git repostiroy ,
         until you use git pull.
 
 
-command : "git branch -M  branchname"
+command : "git branch"
+Note:this command used to check the current branch.
+
+
+command : "git branch"
+Note:this command used to check the current branch.
+
+
+command : "git branch -r"
+Note:this This command lists all the remote branches(only github repository branches)
+
+command : "git branch -a"
+Note:this command used to see the all branch of repository,
+         this will show all the branches from github repository and local repository
+
+
+
+
+command : "git checkout branchname" or " git switch branchname"
 Note:this command used to change branch of the git repository.
                 "master" and "main" both same.
-                
+                it you have many branches like main,subbranch1,subbtrach2 then
+                this command will be used swith branch.
+
+
+
+command : "git branch -d branchname"
+Note:To DELETE the branch from local machine.               
+command : "git push origin -d branchname"
+Note:To DELETE the branch from github repository.
