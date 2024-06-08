@@ -1,3 +1,36 @@
 these commands are used to merge branches,
 when you complete you modification with subbranch then, 
 you need to add the modified code /created file or to main from subbranches.
+
+Example :  
+    step1:
+     command : " git branch " 
+     output : subbranch2(current directory)
+
+    step2: 
+     command : " git add ." 
+     output : U or M letters will remove from file corner.
+
+    step3:
+     command : "  git commit -m "git_merge_branch.txt was modified" " 
+     output : [subbranch2 95bd84b] git_merge_branch.txt was modified
+
+    step4:
+     command : "  git push origin subbranch" 
+     output : those files will be oushed into remote subbranch(github repo subbranch2).
+
+    step5:
+     command : " git switch main " or "git checkout main" 
+     output : main(current directory)
+
+    step6:
+     command : " git pull origin main " 
+     output : latest files from remote main(github repository main) will be pulled into local main.
+
+    step7:
+     command : " git merge subbranch " 
+     output : this command will merge the subbranch2 with main branch locally.
+
+     step8: 
+     command: "git push origin main"
+     output: this command will push the local main to remote main(github repository maon)
