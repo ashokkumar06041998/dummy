@@ -1,2 +1,4 @@
-hello there ,
-this demo file was edited from github browser
+Step 1 :To initialize github in terminal " git init" 
+Step 2 :To Add file in github "git add filename.format"
+Step 3 :To Commit the Changes "git commit -m "write something about the file creation/modifies""
+Step 4 :To Push the Files to github Repositoty "git push origin main"
