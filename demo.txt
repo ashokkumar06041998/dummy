@@ -1,4 +1,6 @@
 Step 1 :To initialize github in terminal " git init" 
+            Note: git init will initialize the github in local machine and creates a folder for github,
+            if you didn't login before it will ask you login into you github account to initialize
 Step 2 :To Add file in github "git add filename.format"
 Step 3 :To Commit the Changes "git commit -m "write something about the file creation/modifies""
 Step 4 :To Push the Files to github Repositoty "git push origin main"
