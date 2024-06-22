@@ -1,0 +1,24 @@
+Step 1:  Pull latest changes from remote "main" branch to your local "main" branch:
+             command : "git pull origin main"
+
+
+Step 2:  Create and switch to "demo-branch" to make your changes:
+             command : "git checkout -b demo-branch"
+
+
+Step 3:  Make your changes, stage them, and commit:
+            commands : 
+                            git add .  # Stage all changes
+                             git commit -m "Your commit message"  # Commit your changes
+
+
+Step 4: Switch back to "main" branch to integrate "demo-branch":
+            command : "git switch main"
+
+
+Step 5:  Merge "demo-branch" into "main":
+            command : "git merge demo-branch"
+
+
+Step 6: Push the changes to the "remote main"(github repo main) branch:
+            command : "git push origin main"
